@@ -37,7 +37,7 @@ h1{
     border-radius: 35px;
     margin: 40px;
 
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,9 +239,9 @@ div.fadeIn {
         width: 100%;
     }
     div.fadeOut{
-        margin-top: -190px;
-        position: relative;
-        margin-left: 25px;
+      margin-top: -4px;
+      position: relative;
+      margin-left: 1px;
     }
 
     .player-hand{
@@ -254,13 +254,29 @@ div.fadeIn {
 
     .mainimg{
         width: 300px;
-        margin: 10px;
+        margin: 0px;
+        margin-bottom: 61px;
     }
 
     .intro h1{
         font-size: 30px;
         text-align: center;
+        margin-bottom: 74px;
+        margin-top: 56px;
         margin: 15px;
+    }
+
+    .intro{
+      margin-top: 200px;
+      height: auto;
+    }
+
+    .winner {
+      color: rgb(224, 224, 224);
+      text-align: center;
+      font-size: 44px;
+      padding: 25px;
+
     }
     
   }
