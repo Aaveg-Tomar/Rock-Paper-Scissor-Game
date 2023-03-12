@@ -92,13 +92,17 @@ const game = () => {
         }
       }
       
-      if (playerChoice === "scissors") {
-        if (computerChoice === "rock") {
+      if (playerChoice === "scissors") 
+      {
+        if (computerChoice === "rock")
+         {
           winner.textContent = "Computer Wins";
           cScore++;
           updateScore();
           return;
-        } else {
+        }
+         else
+          {
           winner.textContent = "Player Wins";
           pScore++;
           updateScore();
